@@ -24,13 +24,13 @@ let mostrar = async (promisePaises, promiseEstados) => {
     // console.log(promiseEstados);
 }
 
-// No logro hacer el callback :(((
-mostrar(
-    (mensaje) => {console.log(mensaje);},
-    (value) => console.log(value)
-    );
+// // No logro hacer el callback :((()))
+// mostrar(
+//     (mensaje) => {console.log(mensaje);},
+//     (value) => console.log(value)
+//     );
 
-resultado = estados.filter(value => value.idPais == 1)
+const resultado = estados.filter(value => value.idPais == 1)
     .map(value => {
         return value.nombre.toUpperCase();
     });

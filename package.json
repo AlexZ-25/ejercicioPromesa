@@ -1,0 +1,23 @@
+{
+  "name": "ejerciciopromesa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexZ-25/ejercicioPromesa.git"
+  },
+  "author": "Alexis Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexZ-25/ejercicioPromesa/issues"
+  },
+  "homepage": "https://github.com/AlexZ-25/ejercicioPromesa#readme",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}
